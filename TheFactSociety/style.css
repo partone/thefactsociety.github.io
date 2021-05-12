@@ -17,6 +17,8 @@ body, html {
     position: fixed;
     height: 100vh;
     width: 18%;
+    background-color: black;
+    z-index: -1;
 }
 
 #logoContainer {
