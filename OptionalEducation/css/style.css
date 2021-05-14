@@ -2,9 +2,11 @@
     font-family: 'Merriweather', serif;
 }
 
-body {
-    margin-left: 25%;
-    margin-right: 25%;
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 1000px;
 }
 
 #header, #headerLogo {
@@ -17,10 +19,10 @@ body {
     margin-right: auto;
     width: 50%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 50px;
     width: 200px;
     height: 200px;
+    cursor: pointer;
 }
 
 #opEdTopTitle {
@@ -30,23 +32,52 @@ body {
     font-size: 30px;
     color: #777;
     margin-top: 40px;
+    line-height: normal;
 }
 
 #opEdTitle {
     text-align: left;
-    font-family: 'Imbue', serif;
-    font-size: 100px;
-    margin-top: -10px;
-    margin-bottom: -20px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 800;
+    font-size: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 87px;
 }
 
 #opEdAuthour {
     font-family: 'Lato', sans-serif;
+    font-weight: 900;
     font-size: 20px;
     margin-bottom: 40px;
 }
 
 .opEdBody {
     font-size: 20px;
-
+    margin-bottom: 20px;
 }
+
+#closingStatement {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+/* Footer */
+
+footer {
+    justify-content: center;
+    height: 100px;
+    background-color: #333;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+
+  footer i {
+    font-weight: 400;
+  }
