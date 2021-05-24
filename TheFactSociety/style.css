@@ -130,6 +130,15 @@ header b {
     padding-left: 10%;
 }
 
+#projectsHeader {
+    text-transform: uppercase;
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    display: none;
+}
+
 .project {
     border: 2px black solid;
     border-right: none;
@@ -212,17 +221,68 @@ header b {
     display: none;
 }
 
+/*Op-ed*/
+
+#oped {
+    padding-left: 10%;
+}
+
+#opedHeader {
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 50px;
+    text-align: right;
+}
+
+#opedContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 5%;
+}
+
+.opedArticle {
+    width: 23.3333333%;
+    padding-left: 5%;
+    height: 400px;
+}
+
+.opedImageContainer {
+    height: 250px;
+    overflow: hidden;
+}
+
+.opedAuthor, .opedDate {
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.opedHeader {
+    font-family: 'Libre Baskerville';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.opedHeader:hover, .opedImageContainer {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 1380px) {
     #bigLine {
-        width: 16%;
+        display: none;
     }
 
     #logoContainer {
         width: 10%;
-        margin-left: 3%;
-        margin-right: 3%;
-        position: fixed;
+        margin-left: 45%;
+        margin-right: 45%;
+        position: absolute;
         z-index: -1;
+        display: block;
     }
 
     #headerContainer {
@@ -243,5 +303,159 @@ header b {
         margin: 0;
         text-align: center;
         width: 100%;
+    }
+
+    #projects {
+        padding-left: 0;
+    }
+
+    .project {
+        border: 2px white solid;
+        color: white;
+        padding-left: 100px;
+    }
+
+    .projectBackground {
+        -moz-transform: scaleY(0);
+        -ms-transform: scaleY(0);
+        -o-transform: scaleY(0);
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0);
+    }
+
+    .projectHeader {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #logoContainer {
+        width: 20%;
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+
+    #learnMore {
+        display: none;
+    }
+
+    header {
+        margin-top: 40vh;
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-size: 30px;
+    }
+
+    header b {
+        display: none;
+    }
+
+    #projectsHeader {
+        display: block;
+    }
+
+    .project {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 50px;
+    }
+
+    .projectBackgroundImage {
+        display: none;
+    }
+
+    #stopColourTheory .projectBackground {
+        background-color: #F4442E;
+    }
+
+    #saveTheMoon .projectBackground {
+        background-color: #575761;
+    }
+
+    #theHumanWaterProject .projectBackground {
+        background-color: #00C49A;
+    }
+
+    .projectHeader {
+        font-size: 54px;
+        font-family: 'Raleway', sans-serif;
+        padding-top: 8px;
+    }
+
+    .projectSuperHeader {
+        font-size: 20px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .projectBackground {
+        -moz-transform: scaleY(100);
+        -ms-transform: scaleY(100);
+        -o-transform: scaleY(100);
+        -webkit-transform: scaleY(100);
+        transform: scaleY(100);
+    }
+
+    #opedHeader {
+        padding-right: 40px;
+        font-size: 35px;
+    }
+
+    .opedArticle {
+        width: 90%;
+        padding-left: 5%;
+        height: 400px;
+    }
+
+    #opedHeader {
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #logoContainer {
+        width: 30%;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
+    #learnMore {
+        display: none;
+    }
+
+    .project {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+    #projectsHeader {
+        text-transform: uppercase;
+        text-align: right;
+        font-size: 35px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+    }
+
+    .projectHeader {
+        font-size: 35px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .projectSuperHeader {
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .projectBackground {
+        -moz-transform: scaleY(100);
+        -ms-transform: scaleY(100);
+        -o-transform: scaleY(100);
+        -webkit-transform: scaleY(100);
+        transform: scaleY(100);
     }
 }
