@@ -5,7 +5,6 @@ $("footer").html("© " + n + " Fact Society&nbsp&nbsp●&nbsp&nbsp<i>Veritas Occ
 // Learn more text
 
 $("#learnMore").click(function () {
-    revealHiddenStuff();
     $("#headerContainer").css("height", "auto");
     $("#headerContainer").css("overflow", "auto");
     $("header b").css("color", "black");
@@ -19,17 +18,3 @@ $(".project").hover(function () {
 }, function () {
     $(this).find(".projectBackground").toggleClass("updown");
 });
-// Logo
-
-$("#bigLine").hover(function () {
-    revealHiddenStuff();
-});
-
-$(window).one("scroll", function() {
-    revealHiddenStuff();
-});
-
-function revealHiddenStuff() {
-    $("#bigLine").css("background-color", "darkred");
-    $('#logoContainer').fadeIn(1000);
-}

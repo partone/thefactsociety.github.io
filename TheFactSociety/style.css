@@ -16,27 +16,13 @@ body {
 
 /* Logo section */
 
-#bigLine {
-    border-right: 2px black solid;
-    background-color: #666;
-    position: absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    height: 100%;
-    width: 10%;
-    z-index: 1;
-    transition: all 1s ease;
-}
-
 #logoContainer {
     height: 100vh;
-    top: 50px;
+    top: 35vh;
     width: 8%;
-    margin-left: 1%;
+    margin-left: 50px;
     margin-right: 1%;
-    position: fixed;
+    position: absolute;
     z-index: 2;
     cursor: default;
 }
@@ -49,20 +35,6 @@ body {
 #leftCanvas {
     width: 100%;
     height: 100vh;
-}
-
-#logoContainer {
-    display: none;
-}
-
-#veritasOcculta {
-    margin-top: 30px;
-    text-transform: uppercase;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    font-family: 'Libre Baskerville';
-    font-size: 3vw;
-    color: white;
 }
 
 /* Header section */
@@ -127,20 +99,21 @@ header b {
 
 #projects {
     padding-top: 50px;
-    padding-left: 10%;
 }
 
 #projectsHeader {
     text-transform: uppercase;
-    font-size: 35px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 50px;
-    display: none;
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 50px;
+    text-align: right;
+    font-family: 'Libre Baskerville';
 }
 
 .project {
     border: 2px black solid;
+    border-left: none;
     border-right: none;
     padding-top: 70px;
     padding-bottom: 70px;
@@ -286,12 +259,9 @@ header b {
 }
 
 @media only screen and (max-width: 1380px) {
-    #bigLine {
-        display: none;
-    }
-
     #logoContainer {
         width: 10%;
+        top: 20vh;
         margin-left: 45%;
         margin-right: 45%;
         position: absolute;
@@ -324,18 +294,9 @@ header b {
     }
 
     .project {
-        border: 2px white solid;
-        color: white;
         padding-left: 100px;
     }
 
-    .projectBackground {
-        -moz-transform: scaleY(0);
-        -ms-transform: scaleY(0);
-        -o-transform: scaleY(0);
-        -webkit-transform: scaleY(0);
-        transform: scaleY(0);
-    }
 
     .projectHeader {
         font-size: 60px;
@@ -387,7 +348,12 @@ footer {
     }
 
     #projectsHeader {
-        display: block;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 35px;
+        font-family: 'Raleway', sans-serif;
+        text-align: left;
+        padding-bottom: 20px;
     }
 
     .project {
@@ -496,10 +462,8 @@ footer {
         padding-bottom: 20px;
     }
 
-
     #projectsHeader {
         text-transform: uppercase;
-        text-align: right;
         font-size: 35px;
         padding-top: 10px;
         padding-bottom: 10px;
