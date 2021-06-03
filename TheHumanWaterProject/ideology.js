@@ -150,6 +150,7 @@ const ideologies = [
     ["Freemasonry", `> \n\n` + `\n\n`],
 
     ["Gandhism", `> The spinning wheel is as much a necessity of Indian life as air and *water*\n\n` + `Mahatma Gandhi\n\nMahatma Gandhi has several quotes attributed to him that make reference to water.  We chose [this piece of wisdom](https://www.mkgandhi.org/epigrams/c.htm) in particular as it shows the importance as water, ranking it as high as air and spinning wheels.  Additionally, [an image of Gandhi drinking **water**](TheHumanWaterProject/images/GandhiWithWater.jpg) entered circulation after being published in an Indian newspaper on January 26th, 1948.`],
+    ["Colour Fact", `> The colour of water is transparent, possibly even reflective\n\n` + `The Fact Society\n\nThe Fact Society confirmed the existence of water within Colour Fact by describing its colour as part of their educational tour de force: [Stop Colour Theory](https://partone.github.io/StopColourTheory/StopColourTheory.html).`],
 
     ["Mormonism", `> \n\n` + `\n\n`],
     ["Communitarianism", `> \n\n` + `\n\n`],
