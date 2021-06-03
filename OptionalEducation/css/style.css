@@ -2,6 +2,11 @@
     font-family: 'Merriweather', serif;
 }
 
+a {
+    color: black;
+    text-decoration: underline;
+}
+
 #content {
     margin-left: auto;
     margin-right: auto;
@@ -61,6 +66,16 @@
     font-weight: 800;
     font-size: 28px;
     margin-top: 10px;
+}
+
+.inlineQuote {
+    font-size: 20px;
+    border-left: 2px solid #AAA;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-style: italic;
 }
 
 .inlineQuoteSmall {
