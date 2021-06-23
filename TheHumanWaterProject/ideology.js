@@ -63,10 +63,14 @@ const ideologies = [
 
     ["Science", `> Because I had pneumonia last year, it would not be wise for me to have a bucket of cold *water* poured over me\n\n` + `Stephen Hawking\n\nScience is all about exploration and imagination, and few scientists have encouraged us to explore and imagine more that the late Stephen Hawking.  Stephen Hawking inadvertently confirmed the existence of water in a [video for Time Magazine](https://time.com/3206976/als-ice-bucket-challenge-stephen-hawking-video/) featuring the widely popular ALS Ice Bucket Challenge, consequently giving a strong indication to the scientific community that water exists and is present in the universe.`],
 
-    ["Atheism", `> For if I try to seize this self of which I feel sure, if I try to define and to summarize it, it is nothing but *water* slipping through my fingers.\n\n` + `Albert Camus\n\nWhile there is no official atheist doctrine, several notable atheist thinkers have, at times, alluded to the existence of water.  The allusion to water both in referene to religious scripture, but also presented through argument, has cemented its existence within most atheist thinkers realm of understanding.  Furthermore, important atheist thinkers such as [Richard Dawkins](TheHumanWaterProject/images/RichardDawkinsWithWater.jpg) have been depicted or pictured alongside water.`],
-    ["Secular humanism", `> \n\n` + `\n\n`],
-    ["Feminism", `> \n\n` + `\n\n`],
+    ["Atheism", `> For if I try to seize this self of which I feel sure, if I try to define and to summarize it, it is nothing but *water* slipping through my fingers.\n\n` + `Albert Camus\n\nWhile there is no official atheist doctrine, several notable atheist thinkers have, at times, [alluded to the existence of water](https://www.goodreads.com/quotes/732808-of-whom-and-of-what-can-i-say-i-know).  The allusion to water both in referene to religious scripture, but also presented through argument, has cemented its existence within most atheist thinkers realm of understanding.  Furthermore, important atheist thinkers such as [Richard Dawkins](TheHumanWaterProject/images/RichardDawkinsWithWater.jpg) have been depicted or pictured alongside water.`],
+
+    ["Secular humanism", `> The two most important Earth resources to support population are fertile soil and fresh *water*.\n\n` + `secularhumanism.org\n\nSecular humanism has no central authority, however secularhumanism.org [has provided us with some insight](https://secularhumanism.org/2015/05/cont-u-s-immigration-and-the-limits-of-supporting-earth-resources/) into the existence of water within this belief in their 2015 article titled "U.S. Immigration and the Limits of Supporting Earth Resources".  We recommend you consult your secular humanist source of truth to determine the existence of water.`],
+
+    ["Feminism", `> Sometimes, Susan, I struggle in deep *waters*.\n\n` + `Elizabeth Cady Stanton to Susan B. Anthony, September 10th, 1855\n\nFeminism is a social movement with no clear leader or spokesperson, so we have turned to two exemplary figures in first-wave feminism.  [In this 1855 letter](http://www.rochester.edu/sba/suffrage-history/susan-b-anthony-and-elizabeth-cady-stanton-their-words/) from Elizabeth Cady Stanton to Susan B. Anthony, Stanton establishes that sometimes she struggles in deep waters, implying that she recognises water and has even had physical interactions with it (albeit occasionally negative).`],
+
     ["Classical anarchism", `> \n\n` + `\n\n`],
+
     ["Libertarianism", `> \n\n` + `\n\n`],
     ["Mutualism", `> \n\n` + `\n\n`],
     ["Federalism", `> \n\n` + `\n\n`],
@@ -150,7 +154,7 @@ const ideologies = [
     ["Freemasonry", `> \n\n` + `\n\n`],
 
     ["Gandhism", `> The spinning wheel is as much a necessity of Indian life as air and *water*\n\n` + `Mahatma Gandhi\n\nMahatma Gandhi has several quotes attributed to him that make reference to water.  We chose [this piece of wisdom](https://www.mkgandhi.org/epigrams/c.htm) in particular as it shows the importance as water, ranking it as high as air and spinning wheels.  Additionally, [an image of Gandhi drinking **water**](TheHumanWaterProject/images/GandhiWithWater.jpg) entered circulation after being published in an Indian newspaper on January 26th, 1948.`],
-    ["Colour Fact", `> The colour of water is transparent, possibly even reflective\n\n` + `The Fact Society\n\nThe Fact Society confirmed the existence of water within Colour Fact by describing its colour as part of their educational tour de force: [Stop Colour Theory](https://partone.github.io/StopColourTheory/StopColourTheory.html).`],
+    ["Colour Fact", `> The colour of *water* is transparent, possibly even reflective\n\n` + `The Fact Society\n\nThe Fact Society confirmed the existence of water within Colour Fact by describing its colour as part of their educational tour de force: [Stop Colour Theory](https://partone.github.io/StopColourTheory/StopColourTheory.html).`],
 
     ["Mormonism", `> \n\n` + `\n\n`],
     ["Communitarianism", `> \n\n` + `\n\n`],
