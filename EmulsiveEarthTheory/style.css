@@ -1,0 +1,349 @@
+
+html, body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+* {
+  font-family: 'Fira Sans', sans-serif;
+  color: #5f5f5f;
+}
+
+hr {
+  border-color: #999;
+  margin: 0;
+  width: 60%;
+  margin-top: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+a, a:active, a:visited, a:hover {
+  color: #5f5f5f;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a sup, sup a {
+  text-decoration: none;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+li {
+  margin-top: 10px;
+}
+
+.section {
+  width: 60%;
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  height: auto;
+}
+
+.textHeader {
+  font-weight: bold;
+  font-size: 80px;
+  padding-top: 200px;
+}
+
+.textSubheader {
+  font-size: 28px;
+}
+
+/* Header */
+
+#header {
+  width: 100%;
+  color: white;
+  height: 120px;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#headerLogo {
+  width: 30%;
+}
+
+#headerLogoContainer {
+  padding-top: 15px;
+  padding-left: 40px;
+}
+
+#headerLogoContainer img {
+  width: auto;
+  max-height: 90px;
+}
+
+/* Landing */
+
+.landing {
+  width: 100%;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.landingTitle {
+  padding-top: 240px;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.landingSubtitle {
+  margin-top: 20px;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* Carousel */
+
+#carouselSection {
+  background-color: #272727;
+}
+
+#carouselSection .textHeader {
+  text-align: center;
+}
+
+#carouselSection * {
+  color: #f0f0f0;
+}
+
+#carousel {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.carouselLayer {
+  width: 100%;
+}
+
+.carouselWord {
+  opacity: 0;
+  font-family: 'Lora', serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+#carouselItself {
+  margin-top: 60px;
+}
+
+/* Definition */
+
+.definition {
+  font-family: 'Lora', serif;
+  line-height: 43px;
+}
+
+/* Concept */
+
+#conceptDefinitionSection, #closingSection {
+  background-color: #272727;
+}
+
+#conceptDefinitionSection *, #closingSection * {
+  color: #f0f0f0;
+}
+
+/* Examples */
+
+#examplesSection .textHeader {
+  text-align: center;
+}
+
+#examplesSection .textSubheader {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+#ball {
+  height: 100px;
+  width: 100px;
+  border: #5f5f5f 6px solid;
+  border-radius:50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#table {
+  height: 100px;
+  width: 150px;
+  border: #5f5f5f 6px solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#roundTable {
+}
+
+#roundTableTop {
+  height: 20px;
+  width: 150px;
+  border: #5f5f5f 6px solid;
+  border-radius:50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f0f0f0;
+  z-index: 999;
+  position: relative;
+}
+
+#roundTableLegs {
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.roundTableLeg {
+  height: 30px;
+  width: 10px;
+  border: #5f5f5f 6px solid;
+  margin-top: -20px;
+}
+
+#roundTableLegLeft {
+  margin-left: 20px;
+  margin-right: 68px;
+}
+
+/* Explanation */
+
+#explanationSection .textHeader {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.explanationImageContainer {
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.explanationImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 30px;
+}
+
+#explanationSection .textSubheader {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+#explanationMultiImageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  width: 510px;
+}
+
+#explanationMultiImageContainer .explanationImageContainer {
+  width: 150px;
+  height: 150px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Closing */
+
+#closingSection {
+  padding-bottom: 150px;
+}
+
+#closingSection .textSubheader {
+  margin-top: 20px;
+}
+
+/* Fact Society */
+
+#bottomLogo {
+  width: 100%;
+}
+
+#theSociety {
+  position: relative;
+}
+
+#bottomLogoContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+#bottomLogoContainer img {
+  height: 150px;
+}
+
+#factSociety {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+#factSociety .textHeader {
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 40px;
+  font-size: 60px;
+}
+
+#factSociety .textSubheader {
+  font-size: 20px;
+}
+
+/* Footer */
+
+footer {
+  justify-content: center;
+  height: 100px;
+  color: #f0f0f0;;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-weight: 400;
+  background-color: #272727;
+}
+
+footer i {
+  font-weight: 400;
+  color: #f0f0f0;
+}
+
+@media only screen and (max-width: 1400px) {
+  .textHeader {
+    font-size: 45px;
+  }
+
+  .textSubheader {
+    font-size: 22px;
+  }
+
+  .carouselWord {
+    font-size: 24px;
+  }
+
+  .definition {
+    font-family: 'Lora', serif;
+    line-height: 34px;
+  }
+}
