@@ -164,7 +164,7 @@ footer {
     #opEdTopTitle {
         text-align: center;
         padding-bottom: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 60px;
         border-bottom: 2px black solid;
         width: 350px;
         margin-left: auto;
@@ -173,14 +173,16 @@ footer {
 
     #opEdTitle {
         text-align: center;
-        font-size: 70px;
+        font-size: 90px;
         line-height: 90px;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     #opEdAuthour {
-        margin-top: 30px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 60px;
     }
 
     #opEdAuthour, #opEdDate {
