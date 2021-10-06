@@ -143,12 +143,12 @@ footer {
     }
 
     .opEdBody {
-    font-size: 35px;
-    margin-bottom: 20px;
+        font-size: 45px;
+        margin-bottom: 20px;
     }
 
     .inlineQuoteSmall {
-    font-size: 25px;
+        font-size: 25px;
     }
 
     .opEdBody b {
@@ -161,12 +161,29 @@ footer {
         margin-bottom: 60px;
     }
 
+    #opEdTopTitle {
+        text-align: center;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        border-bottom: 2px black solid;
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     #opEdTitle {
-        font-size: 80px;
-        line-height: 85px;
+        text-align: center;
+        font-size: 70px;
+        line-height: 90px;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     #opEdAuthour {
+        margin-top: 30px;
+    }
+
+    #opEdAuthour, #opEdDate {
         font-size: 25px;
     }
 }
