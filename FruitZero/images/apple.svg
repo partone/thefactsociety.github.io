@@ -1,0 +1,21 @@
+<?xml version="1.0"?><svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>Red Apple - solid red</title>
+ <defs>
+  <linearGradient id="linearGradient836">
+   <stop id="stop837" offset="0" stop-color="#c8b800"/>
+   <stop id="stop839" offset="0.7" stop-opacity="0.592593" stop-color="#ff0000"/>
+   <stop id="stop838" offset="1" stop-opacity="0" stop-color="#ff0000"/>
+  </linearGradient>
+  <linearGradient id="linearGradient828">
+   <stop id="stop829" offset="0" stop-color="#ff0000"/>
+   <stop id="stop830" offset="1" stop-color="#8c3300"/>
+  </linearGradient>
+  <radialGradient cx="0.225806" cy="0.297143" fx="0.225806" fy="0.297143" id="radialGradient832" r="0.598039" xlink:href="#linearGradient828"/>
+  <radialGradient cx="0.600719" cy="0.831683" fx="0.478417" fy="0.980198" id="radialGradient853" r="0.442557" xlink:href="#linearGradient836"/>
+ </defs>
+ <g display="inline">
+  <title>Layer 1</title>
+  <path d="m10.0416,5.19556c-3.61874,0.84574 -8.14221,-0.84574 -9.0469,5.92014c-0.9047,6.7659 5.42816,19.452 10.8563,17.7605c2.7141,-0.845699 1.809401,-0.845699 5.4282,0c7.2376,1.6915 14.4751,-15.0541 10.8563,-20.297689c-3.6187,-5.07444 -10.8563,-5.07444 -18.0939,-3.38296l0,0.00001z" id="path825" stroke-width="1.0000000pt" stroke="#000000" fill="none"/>
+  <path d="m14.94986,4.14008l-0.40115,0.01509c0,-1.25747 0.40115,-2.26344 0.8023,-2.76643c0.401159,-0.50299 0.56162,-0.90538 1.20346,-0.50299c0.401159,0.25149 -0.54958,0.1851 -0.8023,0.50299c-0.401159,0.50299 -0.80231,1.25747 -0.80231,2.75134z" id="path841" stroke-linejoin="bevel" stroke-width="1.0000000pt" stroke="#000000" fill="#af6700"/>
+ </g>
+</svg>
