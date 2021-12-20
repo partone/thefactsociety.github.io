@@ -109,35 +109,50 @@
     </div>
     <div id="plansSection" class="section">
         <div class="textSubtitle hideme" id="iconText">Choose your FrūT plan</div>
+        <div id="currency" class="hideme">
+            <div id="dollarContainer">
+                <input type="radio" id="dollarRadio" name="currency" value="usd" checked="checked">
+                <label id="dollar">USD</label><br>
+            </div>
+            <div id="cryptoContainer">
+                <input type="radio" id="cryptoRadio" name="currency" value="btc">
+                <label id="crypto">Dogecoin</label><br>
+            </div>
+
+        </div>
         <div id="plans">
             <div class="planContainer hideme">
-                <div class="plan">
+                <div class="plan" id="3months">
                     <div class="planDuration">3 Months</div>
-                    <div class="planCost">$29.99</div>
+                    <div class="planCost"><span>$29.99</span><b class="cryptoCurrency">DOGE</b></div>
                     <div class="planFrequency">per month</div>
                     <div class="planFooter">Billed $89.97 every 3 months</div>
                     <div class="chooseButton" id="chooseButton1">Order</div>
                 </div>
             </div>
             <div class="planContainer hideme">
-                <div class="plan">
+                <div class="plan" id="6months">
                     <div class="planDuration">6 Months</div>
-                    <div class="planCost">$15.99</div>
+                    <div class="planCost"><span>$15.99</span><b class="cryptoCurrency">DOGE</b></div>
                     <div class="planFrequency">per month</div>
                     <div class="planFooter">Billed $95.94 every 6 months</div>
                     <div class="chooseButton" id="chooseButton2">Order</div>
                 </div>
             </div>
             <div class="planContainer hideme">
-                <div class="plan">
+                <div class="plan" id="12months">
                     <div class="planDuration">12 Months</div>
-                    <div class="planCost">$9.99</div>
+                    <div class="planCost"><span>$9.99</span><b class="cryptoCurrency">DOGE</b></div>
                     <div class="planFrequency">per month</div>
                     <div class="planFooter">Billed $119.88 every 12 months</div>
                     <div class="chooseButton" id="chooseButton3">Order</div>
                 </div>
             </div>
         </div>
+    </div>
+    <div id="loadingOverlay">
+        <div id="loadingMessage">Weighing Frūt...</div>
+        <div class="loader"></div>
     </div>
     <footer>
         Fact Society

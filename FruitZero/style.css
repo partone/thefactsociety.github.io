@@ -74,7 +74,7 @@ html, body {
 
 #landingSubtitle {
   font-size: 80px;
-  text-shadow: 2px 2px 20px #000000;
+  text-shadow: 2px 2px 5px #000000;
   font-weight: lighter;
 }
 
@@ -153,12 +153,13 @@ html, body {
   padding-left: 25%;
   padding-right: 25%;
   padding-top: 30vh;
+  margin-bottom: 250px;
   height: 100vh;
   position: relative;
 }
 
 #productIntroImage {
-  height: 100vh;
+  height: -webkit-fill-available;
   width: 100%;
   position: absolute;
   top: 0;
@@ -263,8 +264,27 @@ html, body {
   flex-wrap: wrap;
 }
 
+#currency * {
+  color: black;
+}
+
+#currency {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+#currency div {
+  width: 100px;
+}
+
+.cryptoCurrency {
+  font-size: 20px;
+}
+
 .planContainer {
-  margin-top: 60px;
+  margin-top: 20px;
   width: 33%;
 }
 
@@ -343,6 +363,39 @@ html, body {
 
 #chooseButton3:hover {
   background-color: #F41915;
+}
+
+/* Loading */
+
+#loadingOverlay {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(0 0 0 / 0.8);
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #222;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+}
+
+#loadingMessage {
+  margin-bottom: 10px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 /* Footer */
