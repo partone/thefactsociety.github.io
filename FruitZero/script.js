@@ -35,4 +35,20 @@ $(document).ready(function () {
     $(".chooseButton").click(function() {
         $("#loadingOverlay").fadeIn();
     });
+
+    $("#howItWorks").click(function() {
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#productIntro").offset().top
+        }, 800);
+    });
+
+    $("#orderNow").click(function() {
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#plansSection").offset().top
+        }, 800);
+    });
+
+    $("#aboutUs").click(function() {
+        window.open('http://www.thefactsociety.org/', '_blank');
+    });
 });

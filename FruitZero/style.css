@@ -254,7 +254,17 @@ html, body {
 }
 
 #iconSection {
-  margin-bottom: 300px;
+  margin-bottom: 200px;
+}
+
+/* Video */
+
+#video {
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  margin-bottom: 100px;
 }
 
 /* Plans */
@@ -529,7 +539,7 @@ footer i {
       width: 50%;
     }
 
-    #header {
+    #header, #video {
       display: none;
     }
 
