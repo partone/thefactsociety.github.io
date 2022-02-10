@@ -99,6 +99,10 @@ a {
     margin-bottom: 40px;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 /* Footer */
 
 footer {
