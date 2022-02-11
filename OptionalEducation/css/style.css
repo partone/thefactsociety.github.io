@@ -103,6 +103,15 @@ a {
     font-weight: bold;
 }
 
+.centerText {
+    text-align: center;
+    width: 100%;
+}
+
+.widePic {
+    width: 100%;
+}
+
 /* Footer */
 
 footer {
