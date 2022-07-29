@@ -1,6 +1,6 @@
 var d = new Date();
 var n = d.getFullYear();
-$("footer").html("© " + n + " Fact Society&nbsp&nbsp●&nbsp&nbsp<i>Veritas Occulta</i>");
+$("footer").html("© " + n + " Fact Society&nbsp&nbsp●&nbsp&nbsp<i>Veritas Occulta</i>&nbsp&nbsp●&nbsp&nbspinfo@thefactsociety.org");
 
 $("#countdown").html("August 27th " + (n + 5));
 
