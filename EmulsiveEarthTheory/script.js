@@ -1,6 +1,6 @@
 var d = new Date();
 var n = d.getFullYear();
-$("footer").html("© " + n + " Fact Society&nbsp&nbsp●&nbsp&nbsp<i>Veritas Occulta</i>&nbsp&nbsp●&nbsp&nbspinfo@thefactsociety.org");
+$("footer").html("© " + n + " Fact Society&nbsp&nbsp●&nbsp&nbspVeritas Occulta<br>info@thefactsociety.org").css({"text-align": "center"});
 
 const words = ["Pro-life or Pro-choice?", "Liberal or Conservative?", "Capital Punishment or Life Sentence?", "One-state Solution or Two-state Solution?", "Flat Earth or Round Earth?", "Legalisation or Prohibition?", "Free Market or Economic Regulation?", "Paper or Plastic?", "Anti-vax or Pro-vax?"]
 let currentIndex = 0;
