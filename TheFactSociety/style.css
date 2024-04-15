@@ -274,49 +274,46 @@ header b {
     transform: translateY(-50%);
 }
 
-@media only screen and (max-width: 1380px) {
-    #logoContainer {
-        width: 10%;
-        top: 20vh;
-        margin-left: 45%;
-        margin-right: 45%;
-        position: absolute;
-        z-index: -1;
-        display: block;
-    }
+#logoContainer {
+    width: 10%;
+    top: 20vh;
+    margin-left: 45%;
+    margin-right: 45%;
+    position: absolute;
+    z-index: -1;
+    display: block;
+}
 
-    #headerContainer {
-        width: 80%;
-        padding-left: 10%;
-        padding-right: 10%;
-    }
+#headerContainer {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
-    header {
-        text-align: center;
-    }
+header {
+    text-align: center;
+}
 
-    #learnMoreHiddenTextSecondLine {
-        display: block;
-    }
+#learnMoreHiddenTextSecondLine {
+    display: block;
+}
 
-    #learnMore {
-        margin: 0;
-        text-align: center;
-        width: 100%;
-    }
+#learnMore {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
 
-    #projects {
-        padding-left: 0;
-    }
+#projects {
+    padding-left: 0;
+}
 
-    .project {
-        padding-left: 100px;
-    }
+.project {
+    padding-left: 100px;
+}
 
-
-    .projectHeader {
-        font-size: 60px;
-    }
+.projectHeader {
+    font-size: 60px;
 }
 
 /* Footer */
