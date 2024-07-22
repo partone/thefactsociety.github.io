@@ -285,7 +285,6 @@ tr:nth-child(even) {
 
 #ourGreatCEO {
     padding: 20px;
-    width: 80%;
     border-radius: 40px;
     margin: 0 auto;
 }
@@ -303,6 +302,11 @@ tr:nth-child(even) {
     border-color: #8abcd7;
 }
 
-#ourGreatDivider {
+#ourGreatDivider, #offeringHeadingHR {
     width: 200px;
+}
+
+#offeringContent  {
+    width: 80%;
+    margin: 0 auto;
 }
