@@ -302,3 +302,7 @@ tr:nth-child(even) {
 #ourGreatCEOHead {
     border-color: #8abcd7;
 }
+
+#ourGreatDivider {
+    width: 200px;
+}
