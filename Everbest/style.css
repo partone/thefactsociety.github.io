@@ -14,6 +14,20 @@ body {
     padding: 0;
 }
 
+.button {
+    background-color: white;
+    border-radius: 15px;
+    color: #8abcd7;
+    width: fit-content;
+    margin-top: 35px;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+    box-shadow: 5px 10px #888888;
+}
+
 .bold {
     font-weight: bold !important;
 }
@@ -26,8 +40,13 @@ body {
     color: rgb(104, 104, 104) !important;
 }
 
-.regular {
+.regular,
+.name {
     font-size: 18px;
+}
+
+.name {
+    line-height: 40px;
 }
 
 .italics {
@@ -50,9 +69,9 @@ body {
 }
 
 .heading {
-    font-size: 40px;
-    margin-top: 40px;
+    font-size: 60px;
     text-align: center;
+    padding-top: 40px;
 }
 
 /* Landing */
@@ -64,18 +83,22 @@ body {
 
 #header {
     height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 #logo {
     width: 120px;
-    padding-top: 30px;
+    padding-top: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 #landing {
-    height: 750px;
+    height: 830px;
     /* background-image: url('images/landing.webp'); */
     background-size: 100%;
     color: white;
@@ -111,24 +134,10 @@ body {
     border: 1px solid white;
     width: 200px;
     margin-left: 0;
-    text-align: left
+    text-align: left;
 }
 
-#landingCTA {
-    background-color: white;
-    border-radius: 15px;
-    color: #8abcd7;
-    width: fit-content;
-    margin-top: 35px;
-    padding: 20px;
-    font-size: 20px;
-    cursor: pointer;
-    transition: 0.3s;
-    font-weight: bold;
-    box-shadow: 5px 10px #888888;
-}
-
-#landingCTA:hover {
+.button:hover {
     color: rgb(105, 153, 179);
     box-shadow: 0px 0px 10px #888888;
 }
@@ -242,16 +251,12 @@ tr:nth-child(even) {
     color: white;
     text-align: center;
     line-height: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 #offering .heading {
-    color: #8abcd7;
-}
-
-#offeringHeading {
-    font-size: 60px;
-    text-align: center;
-    padding-top: 40px;
+    color: white;
 }
 
 #offeringHeadingHR {
@@ -273,7 +278,8 @@ tr:nth-child(even) {
     height: 150px;
 }
 
-#doctors, #ourGreatCEO {
+#doctors,
+#ourGreatCEO {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -283,10 +289,43 @@ tr:nth-child(even) {
     color: white;
 }
 
+#ourGreatDivider,
+#offeringHeadingHR {
+    width: 200px;
+}
+
+#offeringContent {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Clincher */
+
+#clincher {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #ourGreatCEO {
-    padding: 20px;
     border-radius: 40px;
     margin: 0 auto;
+    text-align: center;
+}
+
+#ourGreatCEOContent {
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+#ourGreatCEOContent .heading {
+    margin-bottom: 40px;
+    padding-top: 0;
 }
 
 .ceoText {
@@ -302,11 +341,126 @@ tr:nth-child(even) {
     border-color: #8abcd7;
 }
 
-#ourGreatDivider, #offeringHeadingHR {
-    width: 200px;
+#clincherImage {
+    width: 50%;
+    height: 500px;
+    z-index: -1;
 }
 
-#offeringContent  {
+#clincherImage img {
+    width: 100%;
+}
+
+#clincherContent {
+    width: 50%;
+}
+
+/* Next */
+
+#next {
+    background-color: #8abcd7;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    padding-bottom: 60px;
+}
+
+#next>div {
+    width: 100%;
+}
+
+#centredButtonGroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#centredButtonGroup .button {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* Step-by-step */
+
+#stepByStep {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: none;
+}
+
+#stepByStep hr {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    color: white;
+    border: 1px solid white;
+    margin-left: 0px;
+    transition: 0.4s;
+}
+
+.stepHeading {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.stepHeadingButton {
+    padding-bottom: 0;
+    margin-top: 40px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.stepHeadingButton:hover {
     width: 80%;
-    margin: 0 auto;
+    color: #555;
+    border-color: #555;
+}
+
+.stepHeadingButton:hover hr {
+    border-color: #555 !important;
+}
+
+.primaryDescription {
+    font-size: 24px;
+    line-height: 40px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.secondaryDescription {
+    padding-left: 40px;
+    line-height: 20px;
+}
+
+.descriptionDrawer {
+    display: none;
+}
+
+.descriptionDrawer :last-child {
+    margin-bottom: 40px;
+}
+
+#finalCTA {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#finalCTA .button {
+    margin-top: 10px;
+}
+
+/* Footer */
+
+footer {
+    margin: 20px;
 }

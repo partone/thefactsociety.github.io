@@ -11,10 +11,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
         rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 </head>
 
 <body>
-    <div id="header" class="section">
+    <div id="header">
         <div id="logoContainer">
             <img id="logo" src="images/svg/logo-no-background.svg" alt="Logo">
         </div>
@@ -23,14 +25,14 @@
         <div id="landingLeft">
             <div id="landingHeading" class="displayFont">
                 Better?<br>
-                Everbest.
+                Everbest<span style="font-size: 20px; padding-left: 5px">™</span>
             </div>
             <div id="landingDescription">
                 Breathe easy with the power of the Himalayas in your body.
                 <hr>
                 Boutique mitochondria transfusions to elevate your energy.
             </div>
-            <div id="landingCTA">
+            <div class="button">
                 Learn how
             </div>
         </div>
@@ -46,7 +48,6 @@
             <div id="explanationHeading" class="heading">Allow us to introduce you to&nbsp</div>
             <div id="explanationHeading2" class="heading">Sherpa mitochondria</div>
         </div>
-
         <div id="comparisonContainer">
             <table id="comparison" class="regular">
                 <tr>
@@ -107,7 +108,7 @@
         </div>
     </div>
     <div id="offering" class="section">
-        <div id="offeringHeading" class="displayFont">Our Offering</div>
+        <div class="displayFont heading">Our Offering</div>
         <hr id="offeringHeadingHR">
         <div class="regular" id="offeringContent">
             <div>We offer our clients <b>direct mitochondria transfusions</b> from pure <b>ethnic
@@ -142,21 +143,111 @@
                 </div>
             </div>
             <hr id="ourGreatDivider">
+        </div>
+    </div>
+
+    <div id="clincher" class="section">
+        <div id="clincherImage">
+            <img src="images/himalayas.jpg" alt="Himalayas">
+        </div>
+        <div id="clincherContent">
             <div id="ourGreatCEO" class="ceoText">
-                
-                <div id="ourGreatCEOQuote" class="italics ceoText">"Everbest™ prides itself in offering life-changing benefits to its customers through a sustainable and
-                    tailored medical experience - all while providing a major source of investment for impoverished
-                    Himalayan
-                    communities.", <span style="font-style: normal;">IASLC World Conference August 2022</span></div>
-                <div class="headContainer">
-                    <div class="head" id="ourGreatCEOHead">
-                        <img class="headImg" src="images/team/eric-planton.jpg" alt="Eric Planton">
+                <div id="ourGreatCEOContent">
+                    <div class="displayFont heading">A Belief in the Best</div>
+                    <div id="ourGreatCEOQuote" class="italics ceoText">"Everbest™ prides itself in offering
+                        life-changing
+                        benefits to its customers through a sustainable and
+                        tailored medical experience - all while providing a major source of investment for impoverished
+                        Himalayan
+                        communities.", <span style="font-style: normal;">IASLC World Conference August 2022</span></div>
+                    <div class="headContainer">
+                        <div class="head" id="ourGreatCEOHead">
+                            <img class="headImg" src="images/team/eric-planton.jpg" alt="Eric Planton">
+                        </div>
+                        <div class="name">Eric Planton, CEO</div>
                     </div>
-                    <div class="name">Eric Planton, CEO</div>
                 </div>
             </div>
         </div>
     </div>
+    <div id="next" class="section">
+        <div id="nextHeading" class="heading displayFont">Where to next?</div>
+        <div>We invite you to learn about our step-by-step process to get you performing at your Everbest™.<br><br>When
+            you're feeling ready, get in touch and we'll set up some time!</div>
+        <div id="centredButtonGroup">
+            <div class="button" id="stepByStepButton">
+                Steps-by-Step Process
+            </div>
+            <div class="button contactButton">
+                Contact Us
+            </div>
+        </div>
+        <div id="stepByStep">
+            <div class="stepHeadingButton" id="prior">
+                <div class="stepHeading">Prior to your transfusion</div>
+                <hr>
+            </div>
+            <div class="descriptionDrawer" id="priorDrawer">
+                <div class="primaryDescription">1. Meet with us in our San Diego office.</div>
+                <div class="secondaryDescription">We will happily discuss your medical history, any possible risks
+                    involved in mitochondria transfusions, and share past client testimonials.</div>
+                <div class="primaryDescription">2. Schedule a date for your operation.</div>
+                <div class="primaryDescription">3. Allow us to handle the rest.</div>
+                <div class="secondaryDescription">Everbest™ will arrange your immigration requirements for Mexico travel
+                    and
+                    organize air transportation for a Nepalese Sherpa ahead of your transfusion day.</div>
+            </div>
+            <div class="stepHeadingButton" id="dayOf">
+                <div class="stepHeading">The day of your transfusion</div>
+                <hr>
+            </div>
+            <div class="descriptionDrawer" id="dayOfDrawer">
+                <div class="primaryDescription">1. On the day of your transfusion, arrive at our San Diego office at
+                    7am.
+                </div>
+                <div class="secondaryDescription">You will receive confirmation of your Sherpa donor's arrival to our
+                    Tijuana facility 24 hours prior to your transfusion.</div>
+                <div class="primaryDescription">2. Our private chauffeur will taxi you to our secure medical facility in
+                    Tijuana.</div>
+                <div class="primaryDescription">3. Your mitochondria transfusion will commence around 9am and last
+                    approximately two hours.</div>
+                <div class="secondaryDescription">Feel free to bring headphones and music. We also offer complimentary
+                    Wifi,
+                    snacks, and foot massages within the facility.<br>
+                    <br>After the procedure, we kindly ask that you remain in the facility for two more hours for
+                    monitoring by our trained staff.
+                </div>
+                <div class="primaryDescription">4. Our chauffeur
+                    will
+                    taxi you back to our office in San Diego for after-care instructions.</div>
+            </div>
+            <div class="stepHeadingButton" id="after">
+                <div class="stepHeading">After your transfusion</div>
+                <hr>
+            </div>
+            <div class="descriptionDrawer" id="afterDrawer">
+                <div class="primaryDescription">1. You will take a course of immunosuppressant for four weeks while your
+                    body adjusts to its new mitochondria.</div>
+                <div class="primaryDescription">2. You will feel the first improvements to cardiovascular endurance
+                    within the first two to four weeks</div>
+                <div class="secondaryDescription">Your new mitochondria will need time to replicate and displace your
+                    old mitochondria.</div>
+                <div class="primaryDescription">3. After 40 weeks the procedure will be complete - cheers to living your
+                    Everbest™ life.</div>
+                <div class="primaryDescription">Ready to take the next step?
+                    <div id="finalCTA">
+                        <div class="button contactButton">
+                            Contact Us
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            
+        </div>
+    </div>
+    <footer>Everbest</footer>
 </body>
 
 </html>
