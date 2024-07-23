@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Everbest: Be Better</title>
+    <title>Better? Everbest.</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +13,7 @@
         rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="script.js"></script>
+    <link rel="icon" href="images/png/favicon.png" type="image/gif" sizes="16x16">
 </head>
 
 <body>
@@ -32,7 +33,7 @@
                 <hr>
                 Boutique mitochondria transfusions to elevate your energy.
             </div>
-            <div class="button">
+            <div id="learnHow" class="button">
                 Learn how
             </div>
         </div>
@@ -58,53 +59,32 @@
                 <tr>
                     <td class="bold">Performance in low<br><br>oxygen environments</td>
                     <td class="black">Poor</td>
-                    <td class="fontW500">Guaranteed</td>
+                    <td class="fontW500">Guaranteed<sup>1</sup></td>
                 </tr>
                 <tr>
                     <td class="bold">Performance at high<br><br>altitudes</td>
                     <td class="black">Poor</td>
-                    <td class="fontW500">Stellar</td>
+                    <td class="fontW500">Stellar<sup>2</sup></td>
                 </tr>
                 <tr>
                     <td class="bold">Oxidative stress</td>
                     <td class="black">At risk</td>
-                    <td class="fontW500">Unheard of</td>
+                    <td class="fontW500">Unheard of<sup>2</sup></td>
                 </tr>
                 <tr>
                     <td class="bold">Lactate production<br><br>(muscle growth)</td>
                     <td class="black">Average</td>
-                    <td class="fontW500">High</td>
+                    <td class="fontW500">High<sup>3</sup></td>
                 </tr>
             </table>
         </div>
-
-        <div id="iconContainer">
-            <div id="iconCentredContainer">
-                <div class="iconPair">
-                    <div class="icon">
-                        <img src="images/icons/doctor.svg" alt="Tractor">
-                    </div>
-                    <div class="iconDescription">Safe and tested procedure</div>
-                </div>
-                <div class="iconPair">
-                    <div class="icon">
-                        <img src="images/icons/route.svg" alt="Plant">
-                    </div>
-                    <div class="iconDescription">Tailored support from start to finish</div>
-                </div>
-                <div class="iconPair">
-                    <div class="icon">
-                        <img src="images/icons/percent.svg" alt="Rractor">
-                    </div>
-                    <div class="iconDescription">Feel the difference within weeks</div>
-                </div>
-                <div class="iconPair">
-                    <div class="icon">
-                        <img src="images/icons/earth.svg" alt="Rractor">
-                    </div>
-                    <div class="iconDescription">Give back to local communities</div>
-                </div>
-            </div>
+        <div id="sources">
+            <a href="https://www.pnas.org/doi/10.1073/pnas.1700527114" target="_blank">1. Horscroft J, et al., 2017, Metabolic basis to Sherpa
+                altitude adaptation</a><br>
+            <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6722185/" target="_blank">2. Bhandari S, et al., 2019, Population History and
+                Altitude-Related Adaptation in the Sherpa</a><br>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/25362633/" target="_blank">3. Gilbert-Kawai E, et al., 2014 King of the Mountains: Tibetan and
+                Sherpa Physiological Adaptations for Life at High Altitude</a>
         </div>
     </div>
     <div id="offering" class="section">
@@ -116,11 +96,43 @@
                 procedure has the long-lasting effect of improving the recipient's ability to handle low oxygen
                 environments. As a direct consequence, <b>recipients can endure high altitudes better, reduce muscle
                     strain
-                    during exercise, and improve their muscle growth</b>.<br><br>This is possible due to a unique
+                    during exercise, and improve their muscle growth</b>.<br> <br>This is possible due to a unique
                 evolution in
                 Sherpa
                 mitochondrial DNA (mtDNA) that has resulted in a better adaptation to their environment high in the
                 Himalayas.
+                <div id="iconContainer">
+                    <div id="iconCentredContainer">
+                        <div class="iconPair">
+                            <div class="icon">
+                                <img src="images/icons/doctor.svg" alt="Tractor">
+                            </div>
+                            <div class="iconDescription">Safe and tested procedure</div>
+                        </div>
+                        <div class="iconPair">
+                            <div class="icon">
+                                <img src="images/icons/route.svg" alt="Plant">
+                            </div>
+                            <div class="iconDescription">Tailored support from start to finish</div>
+                        </div>
+                        <div class="iconPair">
+                            <div class="icon">
+                                <img src="images/icons/percent.svg" alt="Rractor">
+                            </div>
+                            <div class="iconDescription">Feel the difference within weeks</div>
+                        </div>
+                        <div class="iconPair">
+                            <div class="icon">
+                                <img src="images/icons/earth.svg" alt="Rractor">
+                            </div>
+                            <div class="iconDescription">Give back to local communities</div>
+                        </div>
+                    </div>
+                </div>
+                Our experienced and multi-disciplinary medical team is highly specialized in mitochondrial transfusions.
+                They will walk you through the steps of the procedure, and, with due preparations, perform it with
+                accuracy and care.<br>It doesn't stop there - we take pride in offering compassionate and comprehensive
+                after-care to every client.
             </div>
             <div id="doctors">
                 <div class="headContainer">
@@ -172,8 +184,9 @@
     </div>
     <div id="next" class="section">
         <div id="nextHeading" class="heading displayFont">Where to next?</div>
-        <div>We invite you to learn about our step-by-step process to get you performing at your Everbest™.<br><br>When
-            you're feeling ready, get in touch and we'll set up some time!</div>
+        <div>We invite you to learn about our step-by-step process to get you performing at your
+            Everbest™.<br><br>Whether
+            you're feeling ready or you have more questions, send us a message we'll be in touch!</div>
         <div id="centredButtonGroup">
             <div class="button" id="stepByStepButton">
                 Steps-by-Step Process
@@ -244,7 +257,10 @@
             </div>
         </div>
         <div id="contact">
-            
+            Due to a large volume of automated emails, we have temporarily disabled our contact form.
+            <div class="primaryDescription bold"> We kindly ask for you to contact us at
+                <a href="mailto:living@everbest.life">living@everbest.life</a>.
+            </div>
         </div>
     </div>
     <footer>Everbest</footer>

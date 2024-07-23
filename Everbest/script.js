@@ -9,8 +9,15 @@ function sliderio(target) {
 $(document).ready(function () {
     $("footer").html("© " + n + " Everbest&nbsp&nbsp|&nbsp&nbspBetter? Everbest.").css({"text-align": "center"});
 
+    $("#learnHow").click(function () {
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#explanation").offset().top - 80
+        }, 1000);
+    });
+
     $("#stepByStepButton").click(function () {
         sliderio($("#stepByStep"));
+        $("#contact").slideUp();
     });
 
     $("#prior").click(function () {
@@ -23,7 +30,7 @@ $(document).ready(function () {
         $("#afterDrawer").slideToggle();
     });
 
-    $(".contactUs").click(function () {
+    $(".contactButton").click(function () {
         $("#stepByStep").slideUp();
         $("#contact").slideDown();
     });
