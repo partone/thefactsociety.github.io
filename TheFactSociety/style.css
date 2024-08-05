@@ -99,7 +99,6 @@ header b {
 
 #projects {
     padding-top: 50px;
-    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -372,7 +371,10 @@ footer {
     .project {
         padding-top: 50px;
         padding-bottom: 50px;
-        padding-left: 50px;
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 80%;
+        margin: 0
     }
 
     .projectBackgroundImage {
@@ -389,6 +391,10 @@ footer {
 
     #theHumanWaterProject .projectBackground {
         background-color: #00C49A;
+    }
+
+    #frut .projectBackground {
+        background-color: #7611a1;
     }
 
     .projectHeader {
